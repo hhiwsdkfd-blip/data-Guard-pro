@@ -1,0 +1,8 @@
+{
+  "name": "Data Monitor",
+  "description": "Advanced mobile and Wi-Fi data monitoring, real-time network analytics, app-level tracking, limits, and smart forecasting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

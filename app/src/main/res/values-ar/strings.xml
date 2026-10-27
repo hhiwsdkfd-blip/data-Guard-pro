@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">مراقب البيانات</string>
+    <string name="app_tagline">تحليلات فورية لبيانات الهاتف والواي فاي</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">لوحة القيادة</string>
+    <string name="nav_apps">التطبيقات</string>
+    <string name="nav_stats">الإحصائيات</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_analytics">التحليلات</string>
+    <string name="nav_limits">الحدود</string>
+    <string name="nav_notifications">التنبيهات</string>
+    <string name="nav_reports">التقارير</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Dashboard -->
+    <string name="live_status">الاتصال المباشر</string>
+    <string name="live_speed">سرعة الحركة الحالية</string>
+    <string name="mobile_data">بيانات الهاتف</string>
+    <string name="wifi_data">شبكة الواي فاي</string>
+    <string name="upload">رفع (Tx)</string>
+    <string name="download">تنزيل (Rx)</string>
+    <string name="today">اليوم</string>
+    <string name="yesterday">أمس</string>
+    <string name="this_week">هذا الأسبوع</string>
+    <string name="this_month">هذا الشهر</string>
+    <string name="billing_cycle">دورة الفاتورة</string>
+    <string name="plan_quota">سعة الباقة</string>
+    <string name="remaining">المتبقي</string>
+    <string name="used">المستهلك</string>
+    <string name="days_left">أيام متبقية</string>
+    <string name="projected_usage">المتوقع لنهاية الدورة</string>
+    <string name="top_apps">أعلى التطبيقات استهلاكاً</string>
+    <string name="view_all_apps">عرض جميع التطبيقات</string>
+    <string name="metered_connection">اتصال مقيد الاستهلاك</string>
+    <string name="unmetered_connection">اتصال غير مقيد</string>
+    <string name="no_active_network">غير متصل</string>
+    <string name="cellular_active">شبكة الهاتف 4G/5G نشطة</string>
+    <string name="wifi_active">شبكة الواي فاي نشطة</string>
+    <string name="carrier_info">مزود الخدمة / الشبكة</string>
+    <string name="live_ticker_rx">تنزيل</string>
+    <string name="live_ticker_tx">رفع</string>
+
+    <!-- Apps Screen -->
+    <string name="search_apps_hint">بحث باسم التطبيق أو الحزمة…</string>
+    <string name="filter_all">الكل</string>
+    <string name="filter_mobile">بيانات الهاتف</string>
+    <string name="filter_wifi">واي فاي</string>
+    <string name="sort_usage">الأعلى استهلاكاً</string>
+    <string name="sort_name">اسم التطبيق</string>
+    <string name="no_apps_found">لم يتم العثور على تطبيقات مطابقة</string>
+    <string name="app_details">تفاصيل استهلاك التطبيق</string>
+    <string name="system_app">خدمة نظام</string>
+    <string name="user_app">تطبيق مثبت</string>
+    <string name="open_app_settings">معلومات التطبيق في النظام</string>
+    <string name="launch_app">فتح التطبيق</string>
+    <string name="package_name">اسم الحزمة</string>
+    <string name="total_traffic">إجمالي الاستهلاك</string>
+    <string name="percentage_of_total">نسبة الاستهلاك</string>
+
+    <!-- Onboarding & Permissions -->
+    <string name="onboarding_title">مراقب البيانات المتطور</string>
+    <string name="onboarding_subtitle">تحليلات دقيقة على مستوى العتاد لبيانات الهاتف والواي فاي مع توقعات ذكية.</string>
+    <string name="perm_usage_title">إذن الوصول إلى بيانات الاستخدام</string>
+    <string name="perm_usage_desc">يتطلب نظام أندرويد هذا الإذن للاستعلام بدقة عن استهلاك كل تطبيق عبر NetworkStatsManager.</string>
+    <string name="grant_usage_perm">منح إذن الاستخدام</string>
+    <string name="perm_granted">تم منح الإذن</string>
+    <string name="perm_not_granted">الإذن مطلوب</string>
+    <string name="perm_notification_title">تنبيهات الباقة الذكية</string>
+    <string name="perm_notification_desc">تنبيهك فور وصول الاستهلاك إلى 50٪ و 75٪ و 90٪ و 100٪ من رصيد باقتك.</string>
+    <string name="grant_notification_perm">تفعيل التنبيهات</string>
+    <string name="get_started">الدخول إلى لوحة القيادة</string>
+    <string name="privacy_guarantee">خصوصية تامة 100٪ على جهازك. تتم جميع العمليات محلياً دون أي خوادم أو رفع للسحابة.</string>
+    <string name="permission_note">في حال عدم منح الإذن، يظل بإمكانك الاطلاع على إجمالي استهلاك الجهاز ومؤشرات السرعة الفورية.</string>
+
+    <!-- Limits & Plans -->
+    <string name="data_plan_settings">إعدادات الباقة والحدود</string>
+    <string name="monthly_limit">الحد الشهري لبيانات الهاتف</string>
+    <string name="daily_limit">الحد التحذيري اليومي</string>
+    <string name="wifi_limit">سعة الواي فاي المستهدفة</string>
+    <string name="cycle_start_day">يوم بدء الدورة من الشهر</string>
+    <string name="thresholds">نسب التنبيه التحذيرية</string>
+    <string name="save_plan">حفظ إعدادات الباقة</string>
+    <string name="plan_saved">تم حفظ إعدادات الباقة بنجاح</string>
+    <string name="custom_limit_gb">حد البيانات (جيجابايت)</string>
+    <string name="custom_daily_mb">الحد اليومي (ميجابايت)</string>
+    <string name="enable_mobile_limit">تفعيل حد بيانات الهاتف</string>
+    <string name="enable_wifi_limit">تفعيل متابعة استهلاك الواي فاي</string>
+    <string name="enable_daily_limit">تفعيل الحد اليومي المرن</string>
+    <string name="quota_status_safe">الاستهلاك طبيعي</string>
+    <string name="quota_status_warning">اقتراب من الحد المسموح</string>
+    <string name="quota_status_exceeded">تم تجاوز سعة الباقة</string>
+
+    <!-- Analytics & Forecast -->
+    <string name="analytics_title">التحليلات الذكية</string>
+    <string name="daily_avg">المعدل اليومي</string>
+    <string name="weekly_avg">المعدل الأسبوعي</string>
+    <string name="monthly_avg">المعدل الشهري</string>
+    <string name="burn_rate">الوقت المتوقع لنفاد الباقة</string>
+    <string name="burn_rate_days">%1$d أيام متبقية</string>
+    <string name="burn_rate_safe">سعة الباقة كافية ومريحة لنهاية الدورة</string>
+    <string name="burn_rate_alert">بهذا المعدل ستنفد الباقة خلال %1$d أيام</string>
+    <string name="surge_detected">تم رصد استهلاك غير معتاد</string>
+    <string name="surge_desc">استهلاك اليوم أعلى بنسبة %1$d٪ من متوسط آخر 7 أيام.</string>
+    <string name="normal_trend">نمط الاستهلاك مستقر ومنتظم.</string>
+    <string name="forecast_heading">توقعات نهاية الدورة</string>
+    <string name="peak_day">أعلى يوم استهلاك</string>
+    <string name="stats_disclaimer">توقعات رياضية محسوبة بدقة بناءً على القياسات الفعلية لنظام التشغيل.</string>
+
+    <!-- History -->
+    <string name="history_title">سجل الاستهلاك والأنماط</string>
+    <string name="timeframe_7d">آخر 7 أيام</string>
+    <string name="timeframe_14d">آخر 14 يوماً</string>
+    <string name="timeframe_30d">آخر 30 يوماً</string>
+    <string name="combined">الإجمالي</string>
+
+    <!-- Breakdown -->
+    <string name="breakdown_title">إحصائيات الهاتف والواي فاي</string>
+    <string name="traffic_split">توزيع الاستهلاك</string>
+    <string name="upload_vs_download">نسبة الرفع إلى التنزيل</string>
+    <string name="network_caps">إمكانيات الشبكة الحالية</string>
+    <string name="link_down_speed">سرعة خط التنزيل</string>
+    <string name="link_up_speed">سرعة خط الرفع</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">سجل إشعارات وتنبيهات الباقة</string>
+    <string name="no_notifications">لا توجد تنبيهات مسجلة بعد.</string>
+    <string name="test_notification">إرسال إشعار تجريبي</string>
+    <string name="notif_50_title">تم استهلاك 50٪ من باقة البيانات</string>
+    <string name="notif_75_title">تم استهلاك 75٪ من باقة البيانات</string>
+    <string name="notif_90_title">تحذير: 90٪ من باقة البيانات مستهلكة</string>
+    <string name="notif_100_title">تم استنفاد 100٪ من سعة باقة البيانات</string>
+    <string name="notif_body_format">لقد استهلكت %1$s من إجمالي باقتك %2$s.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">التقارير والتصدير</string>
+    <string name="generate_report">إنشاء تقرير الاستهلاك</string>
+    <string name="share_report">مشاركة التقرير</string>
+    <string name="export_csv">تصدير CSV</string>
+    <string name="report_period">فترة التقرير</string>
+    <string name="report_copied">تم نسخ نص التقرير إلى الحافظة</string>
+    <string name="report_header">تقرير مراقب البيانات الشامل</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات والخصوصية</string>
+    <string name="language">اللغة</string>
+    <string name="language_en">English (الإنجليزية)</string>
+    <string name="language_ar">العربية</string>
+    <string name="theme">سمة التطبيق</string>
+    <string name="theme_system">تلقائي حسب النظام</string>
+    <string name="theme_light">السمة الفاتحة</string>
+    <string name="theme_dark">السمة الداكنة</string>
+    <string name="privacy_title">الخصوصية وإدارة البيانات</string>
+    <string name="privacy_desc">جميع سجلات وإحصائيات الشبكة محفوظة محلياً فقط في قاعدة بيانات SQLite على جهازك.</string>
+    <string name="clear_data">مسح السجلات المحلية</string>
+    <string name="clear_confirm">هل أنت متأكد من مسح جميع السجلات التاريخية المحفوظة؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">مسح البيانات</string>
+    <string name="data_cleared">تم مسح سجلات البيانات المحلية بنجاح</string>
+    <string name="bg_refresh_interval">فترة الفحص الدوري في الخلفية</string>
+    <string name="interval_15m">15 دقيقة (المعدل القياسي)</string>
+    <string name="interval_1h">ساعة واحدة (توفير البطارية)</string>
+    <string name="version_label">الإصدار 1.0 (جاهز للإنتاج)</string>
+    <string name="refresh">تحديث</string>
+</resources>

@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Data Monitor</string>
+    <string name="app_tagline">Mobile &amp; Wi-Fi Real-time Telemetry</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_stats">Breakdown</string>
+    <string name="nav_history">History</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_limits">Limits</string>
+    <string name="nav_notifications">Alerts</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="live_status">Live Connection</string>
+    <string name="live_speed">Live Traffic Speed</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="wifi_data">Wi-Fi Data</string>
+    <string name="upload">Upload (Tx)</string>
+    <string name="download">Download (Rx)</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="billing_cycle">Billing Cycle</string>
+    <string name="plan_quota">Plan Allowance</string>
+    <string name="remaining">Remaining</string>
+    <string name="used">Used</string>
+    <string name="days_left">days left</string>
+    <string name="projected_usage">Projected End-of-Cycle</string>
+    <string name="top_apps">Top Consuming Apps</string>
+    <string name="view_all_apps">View All Apps</string>
+    <string name="metered_connection">Metered Connection</string>
+    <string name="unmetered_connection">Unmetered Connection</string>
+    <string name="no_active_network">Disconnected</string>
+    <string name="cellular_active">Mobile 4G/5G Active</string>
+    <string name="wifi_active">Wi-Fi Active</string>
+    <string name="carrier_info">Carrier / Network</string>
+    <string name="live_ticker_rx">Down</string>
+    <string name="live_ticker_tx">Up</string>
+
+    <!-- Apps Screen -->
+    <string name="search_apps_hint">Search apps by name or package…</string>
+    <string name="filter_all">All</string>
+    <string name="filter_mobile">Mobile</string>
+    <string name="filter_wifi">Wi-Fi</string>
+    <string name="sort_usage">Highest Usage</string>
+    <string name="sort_name">App Name</string>
+    <string name="no_apps_found">No apps found matching criteria</string>
+    <string name="app_details">App Consumption Details</string>
+    <string name="system_app">System Service</string>
+    <string name="user_app">Installed App</string>
+    <string name="open_app_settings">App Info in System</string>
+    <string name="launch_app">Launch Application</string>
+    <string name="package_name">Package</string>
+    <string name="total_traffic">Total Traffic</string>
+    <string name="percentage_of_total">Share of Total</string>
+
+    <!-- Onboarding & Permissions -->
+    <string name="onboarding_title">Ultimate Data Monitor</string>
+    <string name="onboarding_subtitle">Hardware-accurate mobile and Wi-Fi telemetry with intelligent forecasting.</string>
+    <string name="perm_usage_title">Usage Access Permission</string>
+    <string name="perm_usage_desc">Android requires Usage Access to query granular per-application network consumption via NetworkStatsManager.</string>
+    <string name="grant_usage_perm">Grant Usage Access</string>
+    <string name="perm_granted">Access Granted</string>
+    <string name="perm_not_granted">Access Required</string>
+    <string name="perm_notification_title">Smart Quota Alerts</string>
+    <string name="perm_notification_desc">Notify you when consumption reaches 50%, 75%, 90%, and 100% of your plan allowance.</string>
+    <string name="grant_notification_perm">Enable Alerts</string>
+    <string name="get_started">Enter Dashboard</string>
+    <string name="privacy_guarantee">100% Private &amp; On-Device. All data is processed locally without any remote telemetry or cloud upload.</string>
+    <string name="permission_note">If usage access is not granted, device-level network statistics and real-time live speed counters remain available.</string>
+
+    <!-- Limits & Plans -->
+    <string name="data_plan_settings">Data Plan &amp; Limits</string>
+    <string name="monthly_limit">Mobile Monthly Limit</string>
+    <string name="daily_limit">Daily Warning Limit</string>
+    <string name="wifi_limit">Wi-Fi Target Quota</string>
+    <string name="cycle_start_day">Cycle Start Day of Month</string>
+    <string name="thresholds">Warning Thresholds</string>
+    <string name="save_plan">Save Plan Configuration</string>
+    <string name="plan_saved">Plan settings saved successfully</string>
+    <string name="custom_limit_gb">Data Limit (GB)</string>
+    <string name="custom_daily_mb">Daily Limit (MB)</string>
+    <string name="enable_mobile_limit">Enable Mobile Data Limit</string>
+    <string name="enable_wifi_limit">Enable Wi-Fi Quota Tracking</string>
+    <string name="enable_daily_limit">Enable Daily Soft Limit</string>
+    <string name="quota_status_safe">Usage Normal</string>
+    <string name="quota_status_warning">Approaching Limit</string>
+    <string name="quota_status_exceeded">Allowance Exceeded</string>
+
+    <!-- Analytics & Forecast -->
+    <string name="analytics_title">Intelligent Analytics</string>
+    <string name="daily_avg">Daily Average</string>
+    <string name="weekly_avg">Weekly Average</string>
+    <string name="monthly_avg">Monthly Average</string>
+    <string name="burn_rate">Estimated Exhaustion</string>
+    <string name="burn_rate_days">%1$d days remaining</string>
+    <string name="burn_rate_safe">Quota will comfortably cover the billing cycle</string>
+    <string name="burn_rate_alert">At this pace, allowance will run out in %1$d days</string>
+    <string name="surge_detected">Unusual Spike Detected</string>
+    <string name="surge_desc">Today\'s consumption is %1$d%% higher than your 7-day average.</string>
+    <string name="normal_trend">Steady consumption pattern observed.</string>
+    <string name="forecast_heading">Cycle Projection</string>
+    <string name="peak_day">Peak Usage Day</string>
+    <string name="stats_disclaimer">Mathematical extrapolation based on historical NetworkStatsManager telemetry. No AI hallucination.</string>
+
+    <!-- History -->
+    <string name="history_title">Usage History &amp; Trends</string>
+    <string name="timeframe_7d">Last 7 Days</string>
+    <string name="timeframe_14d">Last 14 Days</string>
+    <string name="timeframe_30d">Last 30 Days</string>
+    <string name="combined">Combined</string>
+
+    <!-- Breakdown -->
+    <string name="breakdown_title">Mobile &amp; Wi-Fi Statistics</string>
+    <string name="traffic_split">Traffic Ratio</string>
+    <string name="upload_vs_download">Upload vs Download Ratio</string>
+    <string name="network_caps">Network Capabilities</string>
+    <string name="link_down_speed">Downlink Bandwidth</string>
+    <string name="link_up_speed">Uplink Bandwidth</string>
+
+    <!-- Notifications -->
+    <string name="notifications_title">Quota Notifications Log</string>
+    <string name="no_notifications">No alerts logged yet.</string>
+    <string name="test_notification">Send Test Notification</string>
+    <string name="notif_50_title">50% Data Plan Used</string>
+    <string name="notif_75_title">75% Data Plan Used</string>
+    <string name="notif_90_title">90% Data Plan Warning</string>
+    <string name="notif_100_title">100% Data Plan Exceeded</string>
+    <string name="notif_body_format">You have consumed %1$s of your %2$s plan allowance.</string>
+
+    <!-- Reports -->
+    <string name="reports_title">Reports &amp; Export</string>
+    <string name="generate_report">Generate Summary Report</string>
+    <string name="share_report">Share Report</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="report_period">Report Timeframe</string>
+    <string name="report_copied">Report text copied to clipboard</string>
+    <string name="report_header">ULTIMATE DATA MONITOR REPORT</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Preferences</string>
+    <string name="language">Language</string>
+    <string name="language_en">English</string>
+    <string name="language_ar">العربية (Arabic)</string>
+    <string name="theme">Interface Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="privacy_title">Privacy &amp; Data Control</string>
+    <string name="privacy_desc">All network statistics remain strictly inside your device SQLite Room database.</string>
+    <string name="clear_data">Reset Local History</string>
+    <string name="clear_confirm">Are you sure you want to delete all stored history snapshots?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Reset Data</string>
+    <string name="data_cleared">Local usage history has been reset</string>
+    <string name="bg_refresh_interval">Background Check Interval</string>
+    <string name="interval_15m">15 minutes (Standard)</string>
+    <string name="interval_1h">1 hour (Battery Saver)</string>
+    <string name="version_label">Version 1.0 (Production Grade)</string>
+    <string name="refresh">Refresh</string>
+</resources>
