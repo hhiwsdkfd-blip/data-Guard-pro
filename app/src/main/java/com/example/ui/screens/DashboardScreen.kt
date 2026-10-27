@@ -135,7 +135,7 @@ fun DashboardScreen(
         ) {
             Column {
                 Text(
-                    text = if (isArabic) "مراقب الإنترنت" else "Net Monitor",
+                    text = if (isArabic) "Data Guard Pro — حارس البيانات" else "Data Guard Pro",
                     style = MaterialTheme.typography.titleLarge.copy(
                         fontWeight = FontWeight.ExtraBold,
                         fontSize = 24.sp

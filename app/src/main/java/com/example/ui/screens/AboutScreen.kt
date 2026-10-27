@@ -118,7 +118,7 @@ fun AboutScreen(
                 Spacer(modifier = Modifier.height(14.dp))
 
                 Text(
-                    text = if (isArabic) "مراقب الإنترنت — Net Monitor" else "Net Monitor — Data Monitor",
+                    text = if (isArabic) "Data Guard Pro — حارس البيانات" else "Data Guard Pro",
                     style = MaterialTheme.typography.titleLarge.copy(
                         fontWeight = FontWeight.ExtraBold,
                         fontSize = 20.sp

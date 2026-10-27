@@ -101,7 +101,7 @@ fun ReportsScreen(
                 onClick = {
                     val shareIntent = Intent(Intent.ACTION_SEND).apply {
                         type = "text/plain"
-                        putExtra(Intent.EXTRA_SUBJECT, "Data Monitor Report")
+                        putExtra(Intent.EXTRA_SUBJECT, "Data Guard Pro Report")
                         putExtra(Intent.EXTRA_TEXT, reportText)
                     }
                     context.startActivity(Intent.createChooser(shareIntent, "Share Report via"))
@@ -148,7 +148,7 @@ fun ReportsScreen(
         OutlinedButton(
             onClick = {
                 val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                val clip = ClipData.newPlainText("Data Monitor Report", reportText)
+                val clip = ClipData.newPlainText("Data Guard Pro Report", reportText)
                 clipboard.setPrimaryClip(clip)
                 Toast.makeText(context, context.getString(R.string.report_copied), Toast.LENGTH_SHORT).show()
             },

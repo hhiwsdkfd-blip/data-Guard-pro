@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   build:
-    name: Build & Test Data Monitor
+    name: Build & Test Data Guard Pro
     runs-on: ubuntu-latest
 
     steps:
@@ -42,7 +42,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: data-monitor-debug-apk
+          name: data-guard-pro-debug-apk
           path: app/build/outputs/apk/debug/*.apk
           retention-days: 14
 

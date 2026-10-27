@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">مراقب البيانات</string>
-    <string name="app_tagline">تحليلات فورية لبيانات الهاتف والواي فاي</string>
+    <string name="app_name">Data Guard Pro</string>
+    <string name="app_tagline">تحليلات فورية وحماية لبيانات الهاتف والواي فاي</string>
 
     <!-- Navigation -->
     <string name="nav_dashboard">لوحة القيادة</string>
@@ -59,7 +59,7 @@
     <string name="percentage_of_total">نسبة الاستهلاك</string>
 
     <!-- Onboarding & Permissions -->
-    <string name="onboarding_title">مراقب البيانات المتطور</string>
+    <string name="onboarding_title">Data Guard Pro — حارس البيانات</string>
     <string name="onboarding_subtitle">تحليلات دقيقة على مستوى العتاد لبيانات الهاتف والواي فاي مع توقعات ذكية.</string>
     <string name="perm_usage_title">إذن الوصول إلى بيانات الاستخدام</string>
     <string name="perm_usage_desc">يتطلب نظام أندرويد هذا الإذن للاستعلام بدقة عن استهلاك كل تطبيق عبر NetworkStatsManager.</string>
@@ -139,7 +139,7 @@
     <string name="export_csv">تصدير CSV</string>
     <string name="report_period">فترة التقرير</string>
     <string name="report_copied">تم نسخ نص التقرير إلى الحافظة</string>
-    <string name="report_header">تقرير مراقب البيانات الشامل</string>
+    <string name="report_header">تقرير Data Guard Pro الشامل</string>
 
     <!-- Settings -->
     <string name="settings_title">الإعدادات والخصوصية</string>

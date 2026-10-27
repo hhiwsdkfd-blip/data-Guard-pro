@@ -146,7 +146,7 @@ fun SettingsScreen(
 
         MetricCard(
             title = if (isArabic) "معلومات التطبيق" else "About Application",
-            value = if (isArabic) "مراقب الإنترنت — Net Monitor v1.0" else "Net Monitor v1.0",
+            value = if (isArabic) "Data Guard Pro v1.0" else "Data Guard Pro v1.0",
             subtitle = if (isArabic) "التقنيات المستخدمة والقيود التقنية لنظام Android" else "Tech stack & Android OS limitations",
             icon = Icons.Default.Info,
             iconTint = CyanPrimary,

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Data Monitor"
+rootProject.name = "Data Guard Pro"
 
 include(":app")

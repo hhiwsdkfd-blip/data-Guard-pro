@@ -431,7 +431,7 @@ fun ChartsReportsScreen(
                     val reportText = viewModel.generateReportText()
                     val shareIntent = Intent(Intent.ACTION_SEND).apply {
                         type = "text/plain"
-                        putExtra(Intent.EXTRA_SUBJECT, "Data Monitor Report")
+                        putExtra(Intent.EXTRA_SUBJECT, "Data Guard Pro Report")
                         putExtra(Intent.EXTRA_TEXT, reportText)
                     }
                     context.startActivity(Intent.createChooser(shareIntent, "Share Report via"))

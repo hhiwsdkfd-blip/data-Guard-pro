@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Data Monitor</string>
-    <string name="app_tagline">Mobile &amp; Wi-Fi Real-time Telemetry</string>
+    <string name="app_name">Data Guard Pro</string>
+    <string name="app_tagline">Mobile &amp; Wi-Fi Real-time Telemetry &amp; Protection</string>
 
     <!-- Navigation -->
     <string name="nav_dashboard">Dashboard</string>
@@ -59,7 +59,7 @@
     <string name="percentage_of_total">Share of Total</string>
 
     <!-- Onboarding & Permissions -->
-    <string name="onboarding_title">Ultimate Data Monitor</string>
+    <string name="onboarding_title">Data Guard Pro</string>
     <string name="onboarding_subtitle">Hardware-accurate mobile and Wi-Fi telemetry with intelligent forecasting.</string>
     <string name="perm_usage_title">Usage Access Permission</string>
     <string name="perm_usage_desc">Android requires Usage Access to query granular per-application network consumption via NetworkStatsManager.</string>
@@ -67,7 +67,7 @@
     <string name="perm_granted">Access Granted</string>
     <string name="perm_not_granted">Access Required</string>
     <string name="perm_notification_title">Smart Quota Alerts</string>
-    <string name="perm_notification_desc">Notify you when consumption reaches 50%, 75%, 90%, and 100% of your plan allowance.</string>
+    <string name="perm_notification_desc" formatted="false">Notify you when consumption reaches 50%, 75%, 90%, and 100% of your plan allowance.</string>
     <string name="grant_notification_perm">Enable Alerts</string>
     <string name="get_started">Enter Dashboard</string>
     <string name="privacy_guarantee">100% Private &amp; On-Device. All data is processed locally without any remote telemetry or cloud upload.</string>
@@ -139,7 +139,7 @@
     <string name="export_csv">Export CSV</string>
     <string name="report_period">Report Timeframe</string>
     <string name="report_copied">Report text copied to clipboard</string>
-    <string name="report_header">ULTIMATE DATA MONITOR REPORT</string>
+    <string name="report_header">DATA GUARD PRO REPORT</string>
 
     <!-- Settings -->
     <string name="settings_title">Settings &amp; Preferences</string>

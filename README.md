@@ -1,6 +1,6 @@
-# Ultimate Data Monitor
+# Data Guard Pro
 
-A world-class, privacy-first mobile data monitoring and telemetry application for Android, built with Kotlin, Jetpack Compose, Material Design 3, Room, and WorkManager.
+A world-class, privacy-first mobile data monitoring, protection, and telemetry application for Android, built with Kotlin, Jetpack Compose, Material Design 3, Room, and WorkManager.
 
 ---
 
